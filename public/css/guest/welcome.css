@@ -1,0 +1,79 @@
+/* ==== GENERAL ACCESS VIEW STYLES ==== */
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .appIcon{
+        width: 85vw;
+        margin-bottom: 20px;
+    }
+    .access-button{
+        background-color: #ebaf23;
+        border-radius: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .access-button a{
+        font-size: 1.3rem;
+        color: #212529;
+    }
+    .access-button:hover{
+        box-shadow: 0 0 10px #ebaf23;
+        border-color: #ebaf23;
+        outline: none;
+    }
+    .access-button:hover a{
+        color: white;
+    }
+    .register-advice{
+        font-size: 0.9rem;
+    }
+    footer{
+        display: none;
+    }
+
+
+/* ==== MEDIAQUERIES ==== */
+
+    @media (min-width: 768px) { 
+        .appIcon{
+            width: 70vw;
+            margin-bottom: 70px;
+        }
+        .access-button a{
+            font-size: 1.8rem;
+        }
+        .register-advice{
+            font-size: 1.3rem;
+        }
+    }
+
+    @media (min-width: 992px) { 
+        .appIcon{
+            width: 50vw;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media (min-width: 1280px) { 
+        .appIcon{
+            width: 38vw;
+            margin-bottom: 15px;
+        }
+        .access-button a{
+            font-size: 1.4rem;
+        }
+        .register-advice{
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 1320px) { 
+        .appIcon{
+            width: 28vw;
+            margin-bottom: 15px;
+        }
+
+    }

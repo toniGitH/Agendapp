@@ -1,0 +1,20 @@
+/* ==== GENERAL GUEST LAYOUT STYLES ==== */
+
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    body {
+        background-color: #212529;
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        flex: 1;
+    }
+    .logo-color{
+        color: #ebae21;
+    }
+    footer {
+        flex-shrink: 0;
+    }

@@ -1,0 +1,103 @@
+/* ==== PAGE TITLE ==== */
+
+    .page-title h1{
+        color: #212529;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 5px 10px;
+        margin: 5px 15px 15px 15px;
+    }
+    .page-title i{
+        color: #212529;
+        font-size: 1.5rem;
+    } 
+
+/* ==== CUSTOM BUTTON/INPUT FILE ==== */
+
+    .fileButton{
+        background-color: #212529;
+    }
+    .fileButton:hover{
+        background-color: green;
+    }
+    #file-name {
+        border: none;
+        background-color: white;
+        pointer-events: none;
+        cursor: pointer;
+    }
+
+/* ==== ROLE CHECKBOX ==== */
+
+    .role-checkbox{
+        display:flex;
+        flex-direction: column;
+    }
+
+/* ==== CONTACT/USER IMAGE ==== */
+    .user-img-prev{
+        width: 50%;
+    }
+
+    
+/* ==== MEDIAQUERIES ==== */
+
+    @media (max-width: 329px) {
+        .contact-img-prev{
+            width: 50%;
+        }
+    }
+    
+    @media (min-width: 330px) and (max-width: 400px) {
+        .contact-img-prev{
+            width: 40%;
+        }
+    }
+    
+    @media (min-width: 401px) and (max-width: 450px) {
+        .contact-img-prev{
+            width: 30%;
+        }
+    }
+
+    @media (min-width: 420px) {
+        .role-checkbox{
+            flex-direction: row;
+        }
+    }
+    
+    @media (min-width: 451px) and (max-width: 575px) {
+        .contact-img-prev{
+            width: 25%;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .contact-img-prev{
+            width: 25%;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .page-title h1, .page-title i{
+            font-size: 2.2rem;
+        }
+        .user-img-prev{
+            width: 40%;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .page-title h1, .page-title i{
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .contact-img-prev,
+        .user-img-prev{
+            width: 25%;
+        } 
+    }
+    
+    @media (min-width: 1400px) {}

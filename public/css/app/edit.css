@@ -1,0 +1,110 @@
+/* ==== PAGE TITLE ==== */
+
+    .page-title h1{
+        color: #212529;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 5px 10px;
+        margin: 5px 15px 15px 15px;
+    }
+    .page-title i{
+        color: #212529;
+        font-size: 1.5rem;
+    }
+
+/* ==== CUSTOM BUTTON/INPUT FILE ==== */
+
+    .fileButton{
+        background-color: #212529;
+    }
+    .fileButton:hover{
+        background-color: green;
+    }
+    #file-name {
+        border: none;
+        background-color: white;
+        pointer-events: none;
+        cursor: pointer;
+    }
+    #password::placeholder{
+        font-size: 0.8rem;
+        color: rgb(150, 144, 144);
+    }
+
+/* ==== CONTACT/USER IMAGE ==== */
+
+    .user-img-prev{
+        width: 50%;
+    }
+
+
+/* ==== MEDIAQUERIES ==== */
+
+    @media (max-width: 329px) {
+        .contact-img-prev{
+            width: 50%;
+        }
+    }
+
+    @media (min-width: 360px) {
+        .page-title h1{
+            font-size: 1.9rem;
+        }
+    }
+    
+    @media (min-width: 330px) and (max-width: 400px) {
+        .contact-img-prev{
+            width: 40%;
+        }
+    }
+    
+    @media (min-width: 401px) and (max-width: 450px) {
+        .contact-img-prev{
+            width: 30%;
+        }
+        .page-title h1, .page-title i{
+            font-size: 2rem;
+        }
+    }
+    
+    @media (min-width: 451px) and (max-width: 575px) {
+        .contact-img-prev{
+            width: 25%;
+        }
+        .page-title h1, .page-title i{
+            font-size: 2.1rem;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .contact-img-prev{
+            width: 25%;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .page-title h1, .page-title i{
+            font-size: 2.2rem;
+        }
+        .user-img-prev{
+            width: 40%;
+        }
+        .label-preview{
+            visibility: hidden;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .page-title h1, .page-title i{
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .contact-img-prev,
+        .user-img-prev{
+            width: 25%;
+        } 
+    }
+    
+    @media (min-width: 1400px) {}

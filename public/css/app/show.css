@@ -1,0 +1,117 @@
+/* ==== CONTACT OWNER ==== */
+
+    .contact-owner{
+        color: rgb(134, 133, 133);
+    }
+
+
+/* ==== MEDIAQUERIES ==== */
+
+    @media (max-width: 330px) {
+        .contact-title{
+            font-size: 0.9rem;
+        }
+        .contact-owner{
+            font-size: 0.8rem;
+        }
+        .card-body, .additional-info{
+            font-size: 0.8rem;
+        }
+        .text-additional-info{
+            font-size: 0.9rem;
+        }
+        .card-body img{
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    @media (min-width: 330px) and (max-width: 401px) {
+        .contact-title{
+            font-size: 1.1rem;
+        }
+        .contact-owner{
+            font-size: 0.9rem;
+        }
+        .card-body img{
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    @media (min-width: 401px) and (max-width: 450px) {
+        .contact-title{
+            font-size: 1.1rem;
+        }
+        .contact-owner{
+            font-size: 0.9rem;
+        }
+        .card-body img{
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    @media (min-width: 450px) and (max-width: 575.98px) {
+        .contact-title{
+            font-size: 1.1rem;
+        }
+        .contact-owner{
+            font-size: 0.9rem;
+        }
+        .card-body img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .contact-title{
+            font-size: 1.3rem;
+        }
+        .contact-owner{
+            font-size: 1rem;
+        }
+        .card-body img{
+            width: 225px;
+            height: 225px;
+            object-fit: cover;
+            border-radius: 50%;
+        }  
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .contact-title{
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .contact-title{
+            font-size: 1.3rem;
+        }
+        .contact-owner{
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .contact-title{
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (min-width: 1400px) {}
+
+
+
+
+

@@ -1,0 +1,16 @@
+/* Global custom SweetAlert CSS */
+
+/* General max width */
+.home-swal-modal-custom,
+.delete-swal-modal-custom {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Small screen devices max width */
+@media (max-width: 576px) {
+    .home-swal-modal-custom,
+    .delete-swal-modal-custom {
+        width: 80%;
+    }
+}

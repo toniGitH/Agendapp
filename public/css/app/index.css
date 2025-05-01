@@ -1,0 +1,85 @@
+/* ==== PAGE TITLE ==== */
+
+    .page-title h1{
+        color: #212529;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 5px 10px;
+        margin: 5px 15px 15px 15px;
+    }
+    .page-title i{
+        color: #212529;
+        font-size: 1.5rem;
+    }
+
+/* ==== CONTACTS PAGINATION ==== */
+
+    .pagination .page-item .page-link {
+        background-color: #ffffffc4; /* Background color */
+        color: #212529; /* Text color */
+        border-color: transparent; /* Border */
+    }
+    .pagination .page-item.active .page-link {
+        background-color: #212529; /* Background when active */
+        border-color: transparent;
+        color: white;
+    }
+    .pagination .page-item .page-link:hover {
+        background-color: #212529ad; /* Background on hover */
+        border-color: transparent;
+        color: white;
+    }
+    .pagination .page-item .page-link:focus {
+        box-shadow: 0 0 5px #212529; /* Color and intensity */
+        outline: none;
+    }
+
+/* ==== USERS PAGINATION ==== */
+
+    .pagination-arrow {
+        text-decoration: none;
+        color: #8f9aa5;
+        padding: 10px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .pagination-arrow:hover {
+        transform: scale(1.2);
+        color: #212529;
+    }
+    .users-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .pagination-wrapper {
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        align-items: center;
+    }
+    .pagination-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left, .right {
+        width: 10%;
+    }
+    .center {
+        width: 80%;
+    }
+
+    
+/* ==== MEDIAQUERIES ==== */
+
+    @media (min-width: 576px) {
+        .page-title h1, .page-title i{
+            font-size: 2rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .page-title h1, .page-title i{
+            font-size: 2.5rem;
+        }
+    }

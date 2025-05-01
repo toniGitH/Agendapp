@@ -1,0 +1,60 @@
+/* ==== GENERAL APP LAYOUT STYLES ==== */
+
+    body {
+        background-color: rgb(228, 228, 228);
+    }
+
+	.logo-color{
+        color: #ebae21;
+    }
+
+/* ==== BUTTONS & HOVER EFFECTS ==== */
+
+	.add-contact, .update-contact, .edit-contact, .add-user, .edit-user{
+		background-color: #212529;
+    	border-color: #212529;
+	}
+  	.view-contact{
+    	background-color: #554800;
+    	border-color: #554800;
+  	}
+  	.add-contact:hover, .update-contact:hover, .view-contact:hover, .edit-contact:hover, .add-user:hover, .edit-user:hover, .back-to-list:hover {
+    	background-color: green;
+    	border-color: green;
+    	box-shadow: 0 0 5px #212529;
+    	outline: none;
+  	}
+
+/* ==== ERROR FORM STYLES ==== */
+
+	.error-form {
+		color: rgb(255, 0, 0);
+		font-weight: 500;
+		font-size: 0.8rem;
+	}
+
+
+/* ==== MEDIA QUERIES ==== */
+
+  /* -- Makes .custom-container full width on small screens -- */
+	@media (min-width: 576px) {
+		.custom-container {
+		max-width: 100%;
+		}
+	}
+
+  /* -- Adapts error text size on smaller screens -- */
+	@media (max-width: 575.98px) {
+		.error-form {
+		font-weight: 400;
+		font-size: 0.7rem;
+		}
+	}
+
+  /* -- Adapts header size for smaller screens -- */
+	@media (max-width: 575.98px) {
+		.add-new-contact-header {
+		font-weight: 400;
+		font-size: 1.2rem;
+		}
+	}

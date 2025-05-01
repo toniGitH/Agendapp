@@ -1,0 +1,70 @@
+/* ==== GENERAL HOME VIEW STYLES ==== */
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-card {
+        background-color: #fff1f1;
+    }
+    .error-form {
+        color: rgb(255, 0, 0);
+        font-weight:500;
+        font-size: 0.8rem;
+    }
+    .input-group-text {
+        border-radius: 5px; /* Bordes redondeados */
+        border: 1px solid #ccc; /* Borde más suave */
+        background-color: #f8f9fa; /* Fondo ligero */
+        cursor: pointer;
+        padding: 5px 10px;
+        transition: background-color 0.2s ease-in-out;
+        width: 40px; /* Ancho fijo para evitar cambios de tamaño */
+        text-align: center;
+    }
+    .input-group-text i {
+        width: 16px; /* Ancho fijo para los iconos */
+        display: inline-block; /* Asegura que se respete el ancho */
+        text-align: center;
+    }
+    .input-group-text:hover {
+        background-color: #e2e6ea; /* Cambio de color al pasar el cursor */
+    }
+    .primary-color {
+        color: #0d6efd;
+    }
+    .success-color {
+        color: #198754;
+    }
+
+
+/* ==== MEDIAQUERIES ==== */
+
+    @media (max-width: 576.98px) {
+
+        .error-form {
+            font-weight:400;
+            font-size: 0.7rem;
+        }
+
+        ::placeholder{
+            font-size: 0.5rem;
+        }
+        
+    }
+
+    /* Remove card-header styles in small screens */
+    @media (max-width: 767.98px) { 
+        
+        .card-header {
+            all: unset;
+        }
+        
+        .home-card-header {
+            all: unset;
+        }
+    }
+
+       
